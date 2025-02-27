@@ -124,7 +124,7 @@ p {
 .main-content {
   padding-left: 80px;
   margin-left: 100px;
-  margin-right: 50px;
+  margin-right: 100px;
 }
 .main-content .cards {
   display: grid;
