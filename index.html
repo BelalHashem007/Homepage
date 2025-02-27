@@ -21,8 +21,14 @@
     <header class="header">
       <div class="header-bg"></div>
       <div class="img-and-title">
-        <img
-          src="./photos/portfolio-pic.jpg"
+        <img  
+          srcset="
+            ./photos/portfolio-pic-300w.jpg 300w,
+            ./photos/portfolio-pic-250w.jpg 250w
+          "
+          sizes="(max-width:600px) 250px,
+          300px"
+          src="./photos/portfolio-pic-300w.jpg"
           alt="Belal Hashem"
           class="img-header"
         />
@@ -51,10 +57,10 @@
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
             style="height: 25px; width: 25px"
         /></a>
-        <a href="#" class="twitter"> 
+        <a href="#" class="twitter">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
-            style="height: 25px; width: 25px;"
+            style="height: 25px; width: 25px"
           />
         </a>
       </div>
